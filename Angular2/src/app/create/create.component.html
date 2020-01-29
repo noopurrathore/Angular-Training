@@ -1,0 +1,22 @@
+<main>
+  <h2>Add Employee Operation!</h2>
+  <table>
+    <tr>
+      <td>Id:</td>
+      <td> <input type="text" [(ngModel)]="enteredId"></td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" [(ngModel)]="enteredName"></td>
+    </tr>
+    <tr>
+      <td>Salary:</td>
+      <td><input type="text" [(ngModel)]="enteredSalary"></td>
+    </tr>
+    <tr>
+      <td>Department:</td>
+      <td><input type="text" [(ngModel)]="enteredDepartment"></td>
+    </tr>
+  </table>
+  <button (click)="onAddEmployee()">Add Employee</button>
+  </main>
